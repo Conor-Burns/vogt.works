@@ -8,7 +8,8 @@ const IndexPage = () => (
       <header>
         <div className="inner">
           <h2>Seite nicht gefunden</h2>
-          <h1>404</h1><p style={{opacity: 0}}>SEND NUDES!</p>
+          <h1>404</h1>
+          <p style={{ opacity: 0 }}>SEND NUDES!</p>
         </div>
       </header>
     </section>

@@ -1,0 +1,27 @@
+name: Build and Deploy
+
+on: [push, repository_dispatch]
+
+jobs:
+  build-and-deploy:
+    name: Build and deploy Gatsby site
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 13.x
+
+      - name: Install dependencies
+        run: yarn install --prod --pure-lockfile
+
+      - name: Build
+        run: GATSBY_CPU_COUNT=2 yarn build
+
+      - name: Deploy
+        run: docker-compose run deploy
+        env:
+          DEPLOY_KEY: ${{ secrets.deploy }}

@@ -30,7 +30,11 @@ const IndexPage = () => (
           <img className="image" src={pic1} alt="" />
           <div className="content">
             <h2 className="major">Transparent</h2>
-            <p>Wir garantieren Ihnen vollste Transparenz bei Materialbeschaffung und Ausführung und eine größtmögliche Kooperation zwischen uns und Ihnen als Auftraggeber.</p>
+            <p>
+              Wir garantieren Ihnen vollste Transparenz bei Materialbeschaffung
+              und Ausführung und eine größtmögliche Kooperation zwischen uns und
+              Ihnen als Auftraggeber.
+            </p>
           </div>
         </div>
       </section>
@@ -40,7 +44,11 @@ const IndexPage = () => (
           <img className="image" src={pic2} alt="" />
           <div className="content">
             <h2 className="major">Kompetent</h2>
-            <p>Sie können von uns eine normgerechte und professionelle Umsetzung Ihres Projektes erwarten, gerne leiten wir Sie auch weiter und unterstützen Sie bei Fragen und Problemen rund um Ihr Objekt.</p>
+            <p>
+              Sie können von uns eine normgerechte und professionelle Umsetzung
+              Ihres Projektes erwarten, gerne leiten wir Sie auch weiter und
+              unterstützen Sie bei Fragen und Problemen rund um Ihr Objekt.
+            </p>
           </div>
         </div>
       </section>
@@ -50,7 +58,11 @@ const IndexPage = () => (
           <img className="image" src={pic3} alt="" />
           <div className="content">
             <h2 className="major">Hochwertig</h2>
-            <p>Unsere Umsetzung wird immer Normgerecht und Langlebig sein, mit Verwendung von Qualitätsbaustoffen und dem richtigen Werkzeug. Das ist unser Versprechen!</p>
+            <p>
+              Unsere Umsetzung wird immer Normgerecht und Langlebig sein, mit
+              Verwendung von Qualitätsbaustoffen und dem richtigen Werkzeug. Das
+              ist unser Versprechen!
+            </p>
           </div>
         </div>
       </section>
@@ -63,22 +75,38 @@ const IndexPage = () => (
             <article>
               <img className="image" src={pic4} alt="" />
               <h3 className="major">Beratung und Planung</h3>
-              <p>Haben Sie Fragen zu Ihrem Objekt, oder benötigen Beratung bezüglich Renovierung? Wir helfen ihnen gerne weiter. </p>
+              <p>
+                Haben Sie Fragen zu Ihrem Objekt, oder benötigen Beratung
+                bezüglich Renovierung? Wir helfen ihnen gerne weiter.{' '}
+              </p>
             </article>
             <article>
               <img className="image" src={pic5} alt="" />
               <h3 className="major">Montage</h3>
-              <p>Wir bieten ihnen professionellen Einbau von Türen, Deckenverkleidungen, Fensterbänken bis zu Möbeln an.</p>
+              <p>
+                Wir bieten ihnen professionellen Einbau von Türen,
+                Deckenverkleidungen, Fensterbänken bis zu Möbeln an.
+              </p>
             </article>
             <article>
               <img className="image" src={pic6} alt="" />
               <h3 className="major">Trockenbau</h3>
-              <p>Trockenbau eignet sich perfekt zur einfachen und flexiblen Umgestaltung von Räumen. Ob es sich um ein Fenstersims, um eine neue Trennwand oder einen Dachstuhlausbau handelt, Trockenbau ist das Mittel der Wahl.</p>
+              <p>
+                Trockenbau eignet sich perfekt zur einfachen und flexiblen
+                Umgestaltung von Räumen. Ob es sich um ein Fenstersims, um eine
+                neue Trennwand oder einen Dachstuhlausbau handelt, Trockenbau
+                ist das Mittel der Wahl.
+              </p>
             </article>
             <article>
               <img className="image" src={pic7} alt="" />
               <h3 className="major">Bodenbelagsarbeiten</h3>
-              <p>Ob Parkett, Laminat oder Teppich, ein neuer Boden macht den Unterschied. Im Zusammenhang mit geigneter Trittschall- und Wärmedämmung bieten wir ihnen topaktuelle und energieeffiezente Bodenlegearbeiten an.</p>
+              <p>
+                Ob Parkett, Laminat oder Teppich, ein neuer Boden macht den
+                Unterschied. Im Zusammenhang mit geigneter Trittschall- und
+                Wärmedämmung bieten wir ihnen topaktuelle und energieeffiezente
+                Bodenlegearbeiten an.
+              </p>
             </article>
           </section>
         </div>
