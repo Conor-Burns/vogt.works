@@ -43,7 +43,7 @@ export default function Footer() {
             52066, Aachen
           </li>
           <li className="icon solid fa-phone">
-            <a href="tel:+491792418237">(+49) 179-2418237</a>
+            <a href="tel:+4915118614094">(+49) 151 18614094</a>
           </li>
           <li className="icon solid fa-envelope">
             <a href="mailto:yannik@vogt.works">yannik@vogt.works</a>
@@ -53,7 +53,7 @@ export default function Footer() {
           </li>
         </ul>
         <ul className="copyright">
-          <li>Vogt - Innenausbau und Montage &copy;2021</li>
+          <li>Vogt - Innenausbau und Montage &copy; 2021</li>
           <li>
             Design: <a href="https://conor-burns.com">C.B.</a>
           </li>

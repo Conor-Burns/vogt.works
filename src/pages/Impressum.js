@@ -25,7 +25,7 @@ const IndexPage = () => (
           </p>
           <b>Kontakt:</b>
           <p>
-            Telefon: +491792418237
+            Telefon: (+49) 151 18614094
             <br />
             E-Mail: yannik@vogt.works
           </p>
