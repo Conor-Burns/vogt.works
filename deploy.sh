@@ -12,7 +12,7 @@ chmod 600 $HOME/.ssh/deploy_key # SSH keys need to be readonly
 target="/opt/www/vogt.works"
 
 # The actual rsync
-sh -c "rsync -azh --delete -e 'ssh -i $HOME/.ssh/deploy_key -o StrictHostKeyChecking=no' public/* --rsync-path='mkdir -p ${target} && rsync' <user>@<server>:${target}"
+sh -c "rsync -azh --delete -e 'ssh -p 11988 -i $HOME/.ssh/deploy_key -o StrictHostKeyChecking=no' public/* --rsync-path='mkdir -p ${target} && rsync' root@node.0xcb.dev:${target}"
 
 # Remove our deploy_key again since it's no longer needed
 rm $HOME/.ssh/deploy_key
