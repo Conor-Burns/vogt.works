@@ -21,7 +21,13 @@ jobs:
       - name: Build
         run: GATSBY_CPU_COUNT=2 yarn build
 
-      - name: Deploy
-        run: docker-compose run deploy
-        env:
-          DEPLOY_KEY: ${{ secrets.deploy }}
+      - name: rsync deployments
+        uses: burnett01/rsync-deployments@4.1
+        with:
+          switches: -avzr --delete
+          path: public/
+          remote_path: /opt/www/vogt.works
+          remote_host: node.0xcb.dev
+          remote_user: root
+          remote_port: 11988
+          remote_key: ${{ secrets.DEPLOY }}
