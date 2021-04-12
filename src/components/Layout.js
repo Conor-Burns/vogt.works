@@ -46,6 +46,17 @@ class Layout extends Component {
             property="og:description"
             content="Wohngefühl schaffen, durch Qualität und Kompetenz."
           />
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://vogt.works/" />
+          <meta
+            property="twitter:title"
+            content="Vogt - Innenausbau und Montage"
+          />
+          <meta
+            property="twitter:description"
+            content="Wohngefühl schaffen, durch Qualität und Kompetenz."
+          />
+          <meta property="twitter:image" content="https://vogt.works/og.jpg" />
           <meta
             property="business:contact_data:street_address"
             content="Sebastianstr. 29"

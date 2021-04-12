@@ -1,9 +1,6 @@
-const config = require('./config');
-
 module.exports = {
-  pathPrefix: config.pathPrefix,
   siteMetadata: {
-    title: config.siteTitle,
+    title: `Vogt - Innenausbau und Montage`,
     siteUrl: `https://vogt.works`,
   },
   plugins: [
@@ -19,7 +16,6 @@ module.exports = {
         display: 'standalone',
         icon: 'src/assets/images/website-icon.png',
         crossOrigin: `use-credentials`,
-        cache_busting_mode: 'none',
       },
     },
     {
@@ -32,14 +28,7 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-sitemap',
-    {
-      resolve: 'gatsby-plugin-offline',
-      options: {
-        workboxConfig: {
-          globPatterns: ['**/*'],
-        },
-      },
-    },
+    'gatsby-plugin-offline',
     {
       resolve: 'gatsby-plugin-brotli',
       options: {

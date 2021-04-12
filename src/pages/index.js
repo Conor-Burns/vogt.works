@@ -11,7 +11,6 @@ import pic5 from '../assets/images/montage.jpg';
 import pic6 from '../assets/images/trockenbau.jpg';
 import pic7 from '../assets/images/bodenbelagsarbeiten.jpg';
 
-import config from '../../config';
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -19,8 +18,8 @@ const IndexPage = () => (
         <div className="logo">
           <img className="icons" src={icon} alt="" />
         </div>
-        <h2>{config.heading}</h2>
-        <p>{config.subHeading}</p>
+        <h2>Vogt - Innenausbau und Montage</h2>
+        <p>Wohngefühl schaffen, durch Qualität und Kompetenz.</p>
       </div>
     </section>
 
