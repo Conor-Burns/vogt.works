@@ -1,11 +1,13 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 export default function Footer() {
   return (
     <section id="footer">
       <div className="inner">
         <h2 className="major">Kontakt</h2>
         <form
-          action="mailto:yannik+kontakt@vogt.works"
+          action="https://mailto:yannik+kontakt@vogt.works"
           method="POST"
           encType="multipart/form-data"
         >
@@ -35,21 +37,25 @@ export default function Footer() {
           </ul>
         </form>
         <ul className="contact">
-          <li className="icon solid fa-home">
-            Vogt - Innenausbau und Montage
+          <li className="icon">
+            <FontAwesomeIcon icon="store" size="1x" /> Vogt - Innenausbau und
+            Montage
             <br />
             Sebastianstr. 29
             <br />
             52066, Aachen
           </li>
-          <li className="icon solid fa-phone">
-            <a href="tel:+4915118614094">(+49) 151 18614094</a>
+          <li className="icon">
+            <FontAwesomeIcon icon="phone" size="1x" />
+            <a href="tel:+4915118614094"> (+49) 151 18614094</a>
           </li>
-          <li className="icon solid fa-envelope">
-            <a href="mailto:yannik@vogt.works">yannik@vogt.works</a>
+          <li className="icon">
+            <FontAwesomeIcon icon="envelope" size="1x" />
+            <a href="mailto:yannik@vogt.works"> yannik@vogt.works</a>
           </li>
-          <li className="icon brands fa-instagram">
-            <a href="https://www.instagram.com/yavijo/">@yavijo</a>
+          <li className="icon">
+            <FontAwesomeIcon icon={['fab', 'instagram']} size="1x" />
+            <a href="https://www.instagram.com/yavijo/"> @yavijo</a>
           </li>
         </ul>
         <ul className="copyright">

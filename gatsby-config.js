@@ -5,6 +5,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-fontawesome-css',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -28,7 +29,10 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-sitemap',
-    'gatsby-plugin-offline',
+    'gatsby-plugin-remove-serviceworker',
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-plugin-brotli',
       options: {

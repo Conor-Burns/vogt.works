@@ -1,15 +1,8 @@
 import React from 'react';
-
+import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../components/Layout';
 
 import icon from '../assets/images/fas-tools.svg';
-import pic1 from '../assets/images/transparent.jpg';
-import pic2 from '../assets/images/kompetent.jpg';
-import pic3 from '../assets/images/hochwertig.jpg';
-import pic4 from '../assets/images/beratung.jpg';
-import pic5 from '../assets/images/montage.jpg';
-import pic6 from '../assets/images/trockenbau.jpg';
-import pic7 from '../assets/images/bodenbelagsarbeiten.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -26,7 +19,12 @@ const IndexPage = () => (
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          <img className="image" src={pic1} alt="" />
+          <StaticImage
+            className="image"
+            src="../assets/images/transparent.jpg"
+            alt="static"
+            placeholder="blurred"
+          />
           <div className="content">
             <h2 className="major">Transparent</h2>
             <p>
@@ -40,7 +38,12 @@ const IndexPage = () => (
 
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
-          <img className="image" src={pic2} alt="" />
+          <StaticImage
+            className="image"
+            src="../assets/images/kompetent.jpg"
+            alt="static"
+            placeholder="blurred"
+          />
           <div className="content">
             <h2 className="major">Kompetent</h2>
             <p>
@@ -54,7 +57,12 @@ const IndexPage = () => (
 
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
-          <img className="image" src={pic3} alt="" />
+          <StaticImage
+            className="image"
+            src="../assets/images/hochwertig.jpg"
+            alt="static"
+            placeholder="blurred"
+          />
           <div className="content">
             <h2 className="major">Hochwertig</h2>
             <p>
@@ -72,15 +80,25 @@ const IndexPage = () => (
           <p>Unser Angebot umfasst: </p>
           <section className="features">
             <article>
-              <img className="image" src={pic4} alt="" />
+              <StaticImage
+                className="image"
+                src="../assets/images/beratung.jpg"
+                alt="static"
+                placeholder="blurred"
+              />
               <h3 className="major">Beratung und Planung</h3>
               <p>
                 Haben Sie Fragen zu Ihrem Objekt, oder benötigen Beratung
-                bezüglich Renovierung? Wir helfen ihnen gerne weiter.{' '}
+                bezüglich Renovierung? Wir helfen ihnen gerne weiter.
               </p>
             </article>
             <article>
-              <img className="image" src={pic5} alt="" />
+              <StaticImage
+                className="image"
+                src="../assets/images/montage.jpg"
+                alt="static"
+                placeholder="blurred"
+              />
               <h3 className="major">Montage</h3>
               <p>
                 Wir bieten ihnen professionellen Einbau von Türen,
@@ -88,7 +106,12 @@ const IndexPage = () => (
               </p>
             </article>
             <article>
-              <img className="image" src={pic6} alt="" />
+              <StaticImage
+                className="image"
+                src="../assets/images/trockenbau.jpg"
+                alt="static"
+                placeholder="blurred"
+              />
               <h3 className="major">Trockenbau</h3>
               <p>
                 Trockenbau eignet sich perfekt zur einfachen und flexiblen
@@ -98,7 +121,12 @@ const IndexPage = () => (
               </p>
             </article>
             <article>
-              <img className="image" src={pic7} alt="" />
+              <StaticImage
+                className="image"
+                src="../assets/images/bodenbelagsarbeiten.jpg"
+                alt="static"
+                placeholder="blurred"
+              />
               <h3 className="major">Bodenbelagsarbeiten</h3>
               <p>
                 Ob Parkett, Laminat oder Teppich, ein neuer Boden macht den

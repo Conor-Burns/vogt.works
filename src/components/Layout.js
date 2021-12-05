@@ -6,6 +6,15 @@ import '../assets/sass/main.scss';
 import Footer from './Footer';
 import SideBar from './Sidebar';
 
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import {
+  faStore,
+  faEnvelope,
+  faPhone,
+} from '@fortawesome/free-solid-svg-icons';
+library.add(fab, faStore, faEnvelope, faPhone);
+
 class Layout extends Component {
   constructor(props) {
     super(props);
