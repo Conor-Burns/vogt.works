@@ -84,6 +84,11 @@ class Layout extends Component {
             <SideBar fullMenu={fullMenu} />
             {children}
             <Footer />
+            <script
+              defer
+              data-domain="vogt.works"
+              src="https://stats.0xcb.dev/js/plausible.js"
+            ></script>
           </div>
         </div>
       </>
